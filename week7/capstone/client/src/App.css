@@ -1,0 +1,90 @@
+body, html{
+  background-color: green;
+  background-image: url("images/legends.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hunter-container{
+  display: flex;
+  flex-direction: column;
+  margin: 0 32px;
+}
+
+.listbox{
+  border: 1px solid #333;
+  border-radius: 12px;
+  box-shadow: 3px 8px 12px black;
+  padding: 10px;
+  margin: 30px;
+  background-color: green ;
+  padding: 10px;
+  border: 1px black solid;
+
+}
+
+.listwrapper{
+  display: grid ;
+  justify-content: center;
+  padding: 10px;
+}
+
+form{
+  border: 1px solid black;
+  padding: 10px;
+  margin: 5px;
+}
+.submit{
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: 5px;
+  box-shadow: 3px 8px 12px black;
+  background-image: url("images/field2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border: 2px black solid;
+  border-radius: 10px;
+}
+input{
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: 5px;
+}
+button{
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+
+}
+button :hover{
+  color: red;
+}
+
+
+.heading{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/nfl.jpg");
+  height: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border: 2px black solid;
+  border-radius: 10px;
+}
+
+.text{
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 26px;
+}
