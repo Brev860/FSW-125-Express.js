@@ -6,10 +6,22 @@ body, html{
   background-size: cover;
 }
 
-.hunter-container{
-  display: flex;
-  flex-direction: column;
-  margin: 0 32px;
+li{
+  font-family: 'Bebas Neue', cursive;
+  border: 1px black solid;
+  border-radius: 15px;
+  box-shadow: 5px 9px 12px black, 6px 10px 14px white;
+  background-color: aliceblue;
+  padding: 5px;
+}
+
+h2, h3{
+   border-bottom: 1px black solid;
+   box-shadow: 5px 9px 12px grey, 6px 10px 14px whitesmoke;
+   border-radius: 10px;
+   padding: 5px;
+   background-color: black;
+   color: white;
 }
 
 .listbox{
@@ -25,7 +37,7 @@ body, html{
 }
 
 .listwrapper{
-  display: grid ;
+  display: inline-block ;
   justify-content: center;
   padding: 10px;
 }

@@ -11,7 +11,7 @@ const Header = () =>{
                 <h1 className='h1' >NFL Players</h1>
                 <br/>
                 <br/>
-                <h2 className='h2'>Gods of the GrindIron</h2>
+                <h1 className='h2'>Gods of the GrindIron</h1>
              </div>
                 
             </header>

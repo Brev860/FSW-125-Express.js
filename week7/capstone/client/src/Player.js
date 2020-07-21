@@ -21,8 +21,8 @@ const Players = (props) =>{
             <>
            <h2 className='box'>{firstName} {lastName} </h2>
            <ul className='box'>
-             <li>Status: {status}</li>
-             <li>Jersey Number: {jersey}</li>
+             <li><strong>Status:</strong> {status}</li>
+             <li><strong>Jersey Number:</strong> {jersey}</li>
            </ul>
            <h3 className='box'>Played for:</h3>
            <ul>
